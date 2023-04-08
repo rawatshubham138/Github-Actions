@@ -37,3 +37,8 @@ jobs:
           echo
           echo Is Git installed?
           git --version
+          echo
+          echo What about build tools?
+          gradle --version
+          ant -version
+          mvn --version
