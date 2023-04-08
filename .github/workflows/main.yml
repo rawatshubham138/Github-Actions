@@ -42,3 +42,9 @@ jobs:
           gradle --version
           ant -version
           mvn --version
+          echo
+          echo is docker available?
+          docker --version
+          echo
+          echo Pull one image then
+          docker pull jenkins/jenkins:lts
